@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sales Monitoring System</title>
+    <!-- ======= Styles ====== -->
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    <!-- =============== Navigation ================ -->
+    <div class="container">
+        <div class="navigation">
+            <ul>
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="bicycle-outline"></ion-icon>
+                        </span>
+                        <span class="title">Sales Monitoring System</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="main.html">
+                        <span class="icon">
+                            <ion-icon name="speedometer-outline"></ion-icon>
+                        </span>
+                        <span class="title">Dashboard</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="stats-chart-outline"></ion-icon>
+                        </span>
+                        <span class="title">Manage Sales</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="items.html">
+                        <span class="icon">
+                            <ion-icon name="bag-remove-outline"></ion-icon>
+                        </span>
+                        <span class="title">Manage Items</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="Orders.html">
+                        <span class="icon">
+                            <ion-icon name="cart-outline"></ion-icon>
+                        </span>
+                        <span class="title">Place Order</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="search.html">
+                        <span class="icon">
+                            <ion-icon name="search-outline"></ion-icon>
+                        </span>
+                        <span class="title">Search Order</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="index.html">
+                        <span class="icon">
+                            <ion-icon name="log-out-outline"></ion-icon>
+                        </span>
+                        <span class="title">Sign Out</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- ========================= Main ==================== -->
+        <div class="main">
+            <div class="topbar">
+                <div class="toggle">
+                    <ion-icon name="menu-outline"></ion-icon>
+                </div>
+            </div>
+
+           
+
+                <!-- ================ Customers ================= -->
+                <div class="details">
+                    <div class="recentOrders">
+                        <div class="cardHeader">
+                            <h2>Sales Orders</h2>
+                            <label for="#">Date: 5/27/2024</label>
+                        </div>
+                        <table>
+                            <thead>
+                              <tr>
+                                <td>Name</td>
+                                <td>Address</td>
+                                <td>Model</td>
+                                <td>Price</td>
+                                <td>Payment</td>
+                                <td>Status</td>
+                                <td></td>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td>Khen Rey</td>
+                                <td>Gasan</td>
+                                <td>Honda Click 125i</td>
+                                <td>PHP 80,900</td>
+                                <td>Cash</td>
+                                <td><span class="status delivered">Done</span></td>
+                                <td class="delete"><ion-icon name="trash"></ion-icon></td>
+                              </tr>
+                              <tr>
+                                <td>Jhommel Vitto</td>
+                                <td>Maniwaya</td>
+                                <td>Honda Click 150i</td>
+                                <td>PHP 98,900</td>
+                                <td>Installment</td>
+                                <td><span class="status pending">Pending</span></td>
+                                <td class="delete"><ion-icon name="trash"></ion-icon></td>
+                              </tr>
+                              <tr>
+                                <td>Erin Malapad</td>
+                                <td>Sta. Cruz</td>
+                                <td>Honda PCX160</td>
+                                <td>PHP 133,900</td>
+                                <td>Cash</td>
+                                <td><span class="status delivered">Done</span></td>
+                                <td class="delete"><ion-icon name="trash"></ion-icon></td>
+                              </tr>
+                              <tr>
+                                <td>Jhon Vic Diola</td>
+                                <td>Mogpog</td>
+                                <td>Honda CBR150R</td>
+                                <td>PHP 159,900</td>
+                                <td>Cash</td>
+                                <td><span class="status delivered">Done</span></td>
+                                <td class="delete"><ion-icon name="trash"></ion-icon></td>
+                              </tr>
+                              <tr>
+                                <td>Ralph Ralph</td>
+                                <td>Boac</td>
+                                <td>Yamaha Mio Aerox 155</td>
+                                <td>PHP 124,000</td>
+                                <td>Installment</td>
+                                <td><span class="status pending">Pending</span></td>
+                                <td class="delete"><ion-icon name="trash"></ion-icon></td>
+                              </tr>
+                              <tr>
+                                <td>Jeraldine Vitto</td>
+                                <td>Buenavista</td>
+                                <td>Yamaha NMAX 155</td>
+                                <td>PHP 151,900</td>
+                                <td>Cash</td>
+                                <td><span class="status delivered">Done</span></td>
+                                <td class="delete"><ion-icon name="trash"></ion-icon></td>
+                              </tr>
+                              <tr>
+                                <td>Rosilin Vitto</td>
+                                <td>Mongpong</td>
+                                <td>Yamaha YZF-R15</td>
+                                <td>PHP 164,000</td>
+                                <td>Installment</td>
+                                <td><span class="status pending">Pending</span></td>
+                                <td class="delete"><ion-icon name="trash"></ion-icon></td>
+                              </tr>
+                            </tbody>
+                        </table>
+                          <div class="pagination">
+                                <button class="previous">Previous</button>
+                                <button class="page">1</button>
+                                <button class="page">2</button>
+                                <button class="page">3</button>
+                                <button class="next">Next</button>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- =========== Scripts =========  -->
+    <script src="main.js"></script>
+
+    <!-- ====== ionicons ======= -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

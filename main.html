@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sales Monitoring System</title>
+    <!-- ======= Styles ====== -->
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    <!-- =============== Navigation ================ -->
+    <div class="container">
+        <div class="navigation">
+            <ul>
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="bicycle-outline"></ion-icon>
+                        </span>
+                        <span class="title">Sales Monitoring System</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="speedometer-outline"></ion-icon>
+                        </span>
+                        <span class="title">Dashboard</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="customer.html">
+                        <span class="icon">
+                            <ion-icon name="stats-chart-outline"></ion-icon>
+                        </span>
+                        <span class="title">Manage Sales</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="items.html">
+                        <span class="icon">
+                            <ion-icon name="bag-remove-outline"></ion-icon>
+                        </span>
+                        <span class="title">Manage Items</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="Orders.html">
+                        <span class="icon">
+                            <ion-icon name="cart-outline"></ion-icon>
+                        </span>
+                        <span class="title">Place Order</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="search.html">
+                        <span class="icon">
+                            <ion-icon name="search-outline"></ion-icon>
+                        </span>
+                        <span class="title">Search Order</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="index.html">
+                        <span class="icon">
+                            <ion-icon name="log-out-outline"></ion-icon>
+                        </span>
+                        <span class="title">Sign Out</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- ========================= Main ==================== -->
+        <div class="main">
+            <div class="topbar">
+                <div class="toggle">
+                    <ion-icon name="menu-outline"></ion-icon>
+                </div>
+
+                <div class="user">
+                    <img src="profile.jpg" alt="">
+                </div>
+            </div>
+
+            <!-- ======================= Cards ================== -->
+            <div class="cardBox">
+                <div class="card">
+                    <div>
+                        <div class="numbers">7</div>
+                        <div class="cardName">Customers</div>
+                    </div>
+
+                    <div class="iconBx">
+                        <ion-icon name="people-outline"></ion-icon>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div>
+                        <div class="numbers">7</div>
+                        <div class="cardName">Orders</div>
+                    </div>
+
+                    <div class="iconBx">
+                        <ion-icon name="cart-outline"></ion-icon>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div>
+                        <div class="numbers">200</div>
+                        <div class="cardName">Items</div>
+                    </div>
+
+                    <div class="iconBx">
+                        <ion-icon name="bag-remove-outline"></ion-icon>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div>
+                        <div class="numbers">php677,842</div>
+                        <div class="cardName">Total Sales</div>
+                    </div>
+
+                    <div class="iconBx">
+                        <ion-icon name="cash-outline"></ion-icon>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ================ Order Details List ================= -->
+            <div class="details">
+                <div class="recentOrders">
+                    <div class="cardHeader">
+                        <h2>Recent Orders</h2>
+                        <a href="#" class="btn">View All</a>
+                    </div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <td>Model</td>
+                                <td>Price</td>
+                                <td>Payment</td>
+                                <td>Status</td>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>Honda Click 125i</td>
+                                <td>PHP 80,900</td>
+                                <td>Cash</td>
+                                <td><span class="status delivered">Done</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>Honda Click 150i</td>
+                                <td>PHP 98,900</td>
+                                <td>Installment</td>
+                                <td><span class="status pending">Pending</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>Honda PCX160</td>
+                                <td>PHP 133,900</td>
+                                <td>Cash</td>
+                                <td><span class="status delivered">Done</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>Honda CBR150R</td>
+                                <td>PHP 159,900</td>
+                                <td>Cash</td>
+                                <td><span class="status delivered">Done</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>Yamaha Mio Aerox 155</td>
+                                <td>PHP 124,000</td>
+                                <td>Installment</td>
+                                <td><span class="status pending">Pending</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>Yamaha NMAX 155</td>
+                                <td>PHP 151,900</td>
+                                <td>Cash</td>
+                                <td><span class="status delivered">Done</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>Yamaha YZF-R15</td>
+                                <td>PHP 164,000</td>
+                                <td>Installment</td>
+                                <td><span class="status pending">Pending</span></td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- ================= New Customers ================ -->
+                <div class="recentCustomers">
+                    <div class="cardHeader">
+                        <h2>Recent Customers</h2>
+                    </div>
+
+                    <table>
+                        <tr>
+                            <td width="60px">
+                                <div class="imgBx"><img src="profile.jpg" alt=""></div>
+                            </td>
+                            <td>
+                                <h4>Khen Rey<br> <span>Gasan</span></h4>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td width="60px">
+                                <div class="imgBx"><img src="profile.jpg" alt=""></div>
+                            </td>
+                            <td>
+                                <h4>Jhommel Vitto<br> <span>Maniwaya</span></h4>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td width="60px">
+                                <div class="imgBx"><img src="profile.jpg" alt=""></div>
+                            </td>
+                            <td>
+                                <h4>Erin Malapad<br> <span>Sta. Cruz</span></h4>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td width="60px">
+                                <div class="imgBx"><img src="profile.jpg" alt=""></div>
+                            </td>
+                            <td>
+                                <h4>Jhon Vic Diola<br> <span>Mogpog</span></h4>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td width="60px">
+                                <div class="imgBx"><img src="profile.jpg" alt=""></div>
+                            </td>
+                            <td>
+                                <h4>Ralph Ralph<br> <span>Boac</span></h4>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td width="60px">
+                                <div class="imgBx"><img src="profile.jpg" alt=""></div>
+                            </td>
+                            <td>
+                                <h4>Jeraldine Vitto<br> <span>Buenavista</span></h4>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td width="60px">
+                                <div class="imgBx"><img src="profile.jpg" alt=""></div>
+                            </td>
+                            <td>
+                                <h4>Rosilin Vitto<br> <span>Mongpong</span></h4>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td width="60px">
+                                <div class="imgBx"><img src="profile.jpg" alt=""></div>
+                            </td>
+                            <td>
+                                <h4>Leborn James<br> <span>Torrijos</span></h4>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- =========== Scripts =========  -->
+    <script src="main.js"></script>
+
+    <!-- ====== ionicons ======= -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
